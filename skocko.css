@@ -1,0 +1,154 @@
+body {
+    background-color: rgb(48, 68, 7);
+}
+h1 {
+    text-align: center;
+    font: font70614;
+    color: orangered;
+}
+span {
+    font-size: 26px;
+    color: orangered;
+}
+#polja {
+    position: relative;
+    left: 350px;
+    margin-top: 20px;
+}
+#polje_1 {
+    position: relative;
+    width: 600px;
+    height: 60px;
+}
+#polje_2 {
+    position: relative;
+    width: 600px;
+    height: 60px;
+}
+#polje_3 {
+    position: relative;
+    width: 600px;
+    height: 60px;
+}
+#polje_4 {
+    position: relative;
+    width: 600px;
+    height: 60px;
+}
+#polje_5 {
+    position: relative;
+    width: 600px;
+    height: 60px;
+}
+#polje_6 {
+    position: relative;
+    width: 600px;
+    height: 60px;
+}
+.kocka_1 {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: orangered;
+}
+.kocka_2 {
+    position: absolute;
+    left: 60px;
+    width: 50px;
+    height: 50px;
+    background-color: orangered;
+}
+.kocka_3 {
+    position: absolute;
+    left: 120px;
+    width: 50px;
+    height: 50px;
+    background-color: orangered;
+}
+.kocka_4 {
+    position: absolute;
+    left: 180px;
+    width: 50px;
+    height: 50px;
+    background-color: orangered;
+}
+.krug_1 {
+    position: absolute;
+    left: 300px;
+    width: 50px;
+    height: 50px;
+    background-color: orangered;
+    border-radius: 25px 25px 25px 25px;
+}
+.krug_2 {
+    position: absolute;
+    left: 360px;
+    width: 50px;
+    height: 50px;
+    background-color: orangered;
+    border-radius: 25px 25px 25px 25px;
+}
+.krug_3 {
+    position: absolute;
+    left: 420px;
+    width: 50px;
+    height: 50px;
+    background-color: orangered;
+    border-radius: 25px 25px 25px 25px;
+}
+.krug_4 {
+    position: absolute;
+    left: 480px;
+    width: 50px;
+    height: 50px;
+    background-color: orangered;
+    border-radius: 25px 25px 25px 25px;
+}
+#logo {
+    position: relative;
+    left: 440px;
+    margin-top: 20px;
+    width: 600px;
+    height: 60px;
+}
+#logo_1 {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+}
+#logo_2 {
+    position: absolute;
+    left: 60px;
+    width: 50px;
+    height: 50px;
+}
+#logo_3 {
+    position: absolute;
+    left: 120px;
+    width: 50px;
+    height: 50px;
+}
+#logo_4 {
+    position: absolute;
+    left: 180px;
+    width: 50px;
+    height: 50px;
+    background-image: "x.jpeg";
+}
+#logo_5 {
+    position: absolute;
+    left: 240px;
+    width: 50px;
+    height: 50px;
+}
+#logo_6 {
+    position: absolute;
+    left: 300px;
+    width: 50px;
+    height: 50px;
+}
+#dugmici{
+    position: relative;
+    left: 530px;
+    margin-top: 20px;
+}

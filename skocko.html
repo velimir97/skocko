@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Skocko</title>
+    <link
+      href="https://www.fontify.me/wf/1f53a8cec1efcf29063a5295f1af12d7"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link rel="stylesheet" href="skocko.css" />
+  </head>
+  <body>
+    <h1>SKOČKO</h1>
+    <span>Vreme:</span> <span id="vreme">60</span>
+    <div id="polja">
+        <div id="polje_1">
+            <div class="kocka_1" id="k11"></div><div class="kocka_2" id="k12"></div><div class="kocka_3" id="k13"></div><div class="kocka_4" id="k14"></div>
+            <div class="krug_1" id="o11"></div><div class="krug_2" id="o12"></div><div class="krug_3" id="o13"></div><div class="krug_4" id="o14"></div>
+        </div>
+        <div id="polje_2">
+            <div class="kocka_1" id="k21"></div><div class="kocka_2" id="k22"></div><div class="kocka_3" id="k23"></div><div class="kocka_4" id="k24"></div>
+            <div class="krug_1" id="o21"></div><div class="krug_2" id="o22"></div><div class="krug_3" id="o23"></div><div class="krug_4" id="o24"></div>
+        </div>
+        <div id="polje_3">
+            <div class="kocka_1" id="k31"></div><div class="kocka_2" id="k32"></div><div class="kocka_3" id="k33"></div><div class="kocka_4" id="k34"></div>
+            <div class="krug_1" id="o31"></div><div class="krug_2" id="o32"></div><div class="krug_3" id="o33"></div><div class="krug_4" id="o34"></div>
+        </div>
+        <div id="polje_4">
+                <div class="kocka_1" id="k41"></div><div class="kocka_2" id="k42"></div><div class="kocka_3" id="k43"></div><div class="kocka_4" id="k44"></div>
+                <div class="krug_1" id="o41"></div><div class="krug_2" id="o42"></div><div class="krug_3" id="o43"></div><div class="krug_4" id="o44"></div>
+        </div>
+        <div id="polje_5">
+            <div class="kocka_1" id="k51"></div><div class="kocka_2" id="k52"></div><div class="kocka_3" id="k53"></div><div class="kocka_4" id="k54"></div>
+            <div class="krug_1" id="o51"></div><div class="krug_2" id="o52"></div><div class="krug_3" id="o53"></div><div class="krug_4" id="o54"></div>
+        </div>
+        <div id="polje_6">
+                <div class="kocka_1" id="k61"></div><div class="kocka_2" id="k62"></div><div class="kocka_3" id="k63"></div><div class="kocka_4" id="k64"></div>
+                <div class="krug_1" id="o61"></div><div class="krug_2" id="o62"></div><div class="krug_3" id="o63"></div><div class="krug_4" id="o64"></div>
+        </div>
+    </div>
+    <div id="logo">
+        <div id="logo_1" onclick="logoFunction(1)">
+            <img src="1.jpeg">
+        </div>
+        <div id="logo_2" onclick="logoFunction(2)">
+                <img src="2.jpeg">
+        </div>
+        <div id="logo_3" onclick="logoFunction(3)">
+                <img src="3.jpeg">
+        </div>
+        <div id="logo_4" onclick="logoFunction(4)">
+                <img src="4.jpeg">
+        </div>
+        <div id="logo_5" onclick="logoFunction(5)">
+            <img src="5.jpeg">
+        </div>
+        <div id="logo_6" onclick="logoFunction(6)">
+                <img src="6.jpeg">
+        </div>
+    </div>
+    <div id="dugmici">
+        <button onclick="playFunction()">play</button>
+        <button onclick="restartFunction()">restart</button>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
