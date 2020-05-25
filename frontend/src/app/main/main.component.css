@@ -1,0 +1,158 @@
+.kontejner {
+    background-color: rgb(47, 62, 79);
+}
+h1 {
+    text-align: center;
+    font: font70614;
+    color: aqua;
+}
+span {
+    font-size: 26px;
+    color: aqua;
+}
+#polja {
+    position: relative;
+    margin-top: 15px;
+    width: 550px;
+    height: 360px;
+    margin-left:auto;
+    margin-right:auto;
+}
+#polje_1 {
+    position: absolute;
+    width: 600px;
+    height: 60px;
+}
+#polje_2 {
+    position: absolute;
+    width: 600px;
+    height: 60px;
+    top: 60px;
+}
+#polje_3 {
+    position: absolute;
+    width: 600px;
+    height: 60px;
+    top: 120px;
+}
+#polje_4 {
+    position: absolute;
+    width: 600px;
+    height: 60px;
+    top: 180px;
+}
+#polje_5 {
+    position: absolute;
+    width: 600px;
+    height: 60px;
+    top: 240px;
+}
+#polje_6 {
+    position: absolute;
+    width: 600px;
+    height: 60px;
+    top: 300px;
+}
+.kocka_1 {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: aqua;
+}
+.kocka_2 {
+    position: absolute;
+    left: 60px;
+    width: 50px;
+    height: 50px;
+    background-color: aqua;
+}
+.kocka_3 {
+    position: absolute;
+    left: 120px;
+    width: 50px;
+    height: 50px;
+    background-color: aqua;
+}
+.kocka_4 {
+    position: absolute;
+    left: 180px;
+    width: 50px;
+    height: 50px;
+    background-color: aqua;
+}
+.krug_1 {
+    position: absolute;
+    left: 300px;
+    width: 50px;
+    height: 50px;
+    background-color: aqua;
+    border-radius: 25px 25px 25px 25px;
+}
+.krug_2 {
+    position: absolute;
+    left: 360px;
+    width: 50px;
+    height: 50px;
+    background-color: aqua;
+    border-radius: 25px 25px 25px 25px;
+}
+.krug_3 {
+    position: absolute;
+    left: 420px;
+    width: 50px;
+    height: 50px;
+    background-color: aqua;
+    border-radius: 25px 25px 25px 25px;
+}
+.krug_4 {
+    position: absolute;
+    left: 480px;
+    width: 50px;
+    height: 50px;
+    background-color: aqua;
+    border-radius: 25px 25px 25px 25px;
+}
+#logo {
+    position: relative;
+    margin-top: 15px;
+    width: 375px;
+    height: 60px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#logo_1 {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+}
+#logo_2 {
+    position: absolute;
+    left: 60px;
+    width: 50px;
+    height: 50px;
+}
+#logo_3 {
+    position: absolute;
+    left: 120px;
+    width: 50px;
+    height: 50px;
+}
+#logo_4 {
+    position: absolute;
+    left: 180px;
+    width: 50px;
+    height: 50px;
+    background-image: "x.jpeg";
+}
+#logo_5 {
+    position: absolute;
+    left: 240px;
+    width: 50px;
+    height: 50px;
+}
+#logo_6 {
+    position: absolute;
+    left: 300px;
+    width: 50px;
+    height: 50px;
+}
